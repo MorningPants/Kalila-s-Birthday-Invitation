@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Henny+Penny&family=Indie+Flower&family=Varela+Round&display=swap" rel="stylesheet">
+    
+    <style>
+      body {
+        margin: 0;
+        padding: 0;
+        display: flex;
+        height: 100vh;
+        flex-direction: column;
+        justify-content: space-around;
+        align-items: center;
+        background: radial-gradient(white, #9198e5, #e66465) no-repeat center center fixed;
+        background-size: cover;
+        text-align: center;
+        position: relative;
+        letter-spacing: 1px;
+        color: #300020;
+        vertical-align: middle;
+        font-family: 'Varela Round', sans-serif;
+      }
+    
+      body>h1 {
+        font-family: 'Henny Penny', cursive;
+        max-width: 90%;
+        text-decoration: underline;
+      }
+    
+      body>img {
+        position: absolute;
+        top: 50;
+        max-width: 30vw;
+        animation: MoveUpDown 6s ease-in-out infinite;
+        filter: drop-shadow(30px 10px 10px #4444dd);
+      }
+    
+      .right {
+        right: 0px;
+        animation: MoveUpDown 10s ease-in-out infinite;
+      }
+    
+      .left {
+        left: 0px;
+      }
+    
+      body>* {
+        max-width: 500px;
+        width: 80vw;
+      }
+    
+      @keyframes MoveUpDown {
+    
+        0%,
+        100% {
+          bottom: 10%;
+        }
+    
+        50% {
+          bottom: 60%;
+        }
+      }
+    
+      ul {
+        text-align: left;
+        line-height: 2em;
+      }
+    
+      li::marker {
+        content: '✿ '
+      }
+    </style>
+</head>
+<body>
+
+
+<h1>You are invited to Kalila's Birthday Party!</h1>
+<h2>Please join us at NAAG for an afternoon of gymnastic fun and celebration of Kalila turning Seven!</h2>
+<ul>
+  <li>December 4, 2022</li>
+  <li>1:20 PM - 3:15PM</li>
+  <li><a href="https://naag-gymnastics.org/">National Academy of Artistic Gymnastics</a></li>
+  <li>1205 Oak Patch Rd.</li>
+  <li>Come ready to climb and play!</li>
+  <li>Please RSVP with Lynnea at 541-543-1791</li>
+</ul>
+<img class="left" src="https://64.media.tumblr.com/e9731376184244c851643a0d3539d832/c2a9f4c7d9e953f9-d2/s540x810/76e829c89b139585b6f91f776c4a46152cf75c1e.png">
+
+<img class="right" src="https://64.media.tumblr.com/3f1402bcd673245893a6d4d90dacc7dd/c2a9f4c7d9e953f9-e3/s1280x1920/9959e0b698268c8c62d91584488bb88361fea7d7.png">
+</body>
+</html>
